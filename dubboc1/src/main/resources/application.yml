@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: boot-dubbo-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  monitor:
+    protocol: registry
+server:
+  port: 8082
